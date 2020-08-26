@@ -1,25 +1,10 @@
-[![BuyMeACoffee](https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg)](https://www.buymeacoffee.com/WojciechKulik)
+# swift - bluetooth
 
-# SwiftBluetooth
-Implementation of Bluetooth Low Energy communication using Flow Controllers to make asynchronous code clean. 
+블루투스 연결 베이스 
 
-You can read more in this article: [Swift – Bluetooth Low Energy communication using Flow Controllers](https://wojciechkulik.pl/ios/swift-bluetooth-low-energy-communication-using-flow-controllers)
+블루투스 공부 저장용
 
-## Structure
-
-**BluetoothService:**  
-* **BluetoothService.swift**  
-Only very basic operations - state, connect, disconnect, startScan, stopScan and property to assign FlowController.
-* **BluetoothConnectionHandler.swift**  
-Extension to handle delegate methods related with connection like didConnect, didDisconnectPeripheral, didDiscover etc.
-* **BluetoothEventsHandler.swift**  
-Extension to handle delegate methods related with Bluetooth events like didDiscoverServices, didUpdateValueFor etc.
-* **BluetoothCommands.swift**  
-Extension to wrap preparing requests like binary payloads.
+- 관련 홈페이지 :  [Swift – Bluetooth Low Energy communication using Flow Controllers](https://wojciechkulik.pl/ios/swift-bluetooth-low-energy-communication-using-flow-controllers)
 
 
-**Flows implementation:**
-* FlowController.swift
-* PairingFlow.swift
-* SynchronizationFlow.swift (example - not implemented)
-* ConfigurationFlow.swift (example - not implemented)
+출처 : [https://github.com/wojciech-kulik/SwiftBluetooth](https://github.com/wojciech-kulik/SwiftBluetooth)
